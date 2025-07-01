@@ -1,5 +1,5 @@
 manifestVersion: 1
-id: mealie
+id: cas-mealie
 category: files
 name: Mealie
 version: "2.8.0"
@@ -35,8 +35,8 @@ path: ""
 defaultUsername: ""
 defaultPassword: ""
 torOnly: false
-submitter: Umbrel
-submission: https://github.com/getumbrel/umbrel-apps/pull/608
+submitter: cas
+submission: https://github.com/getumbrel/umbrel-apps/pull/
 releaseNotes: >-
   🎉 Highlights:
     - New Ingredient Parser for easier future development and language support

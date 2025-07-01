@@ -10,9 +10,6 @@ services:
   web:
     image: ghcr.io/mealie-recipes/mealie:v2.8.0@sha256:63aef46d90975d9cf9c0fdb9399fc2fe36acd222e1db6be99c504b9ccdbee967
     restart: on-failure
-    env_file:
-      - path: ./web.env
-        required: false
     environment:
       # Allow additional user sign-up without token
       ALLOW_SIGNUP: "true"
