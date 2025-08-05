@@ -1,5 +1,5 @@
 manifestVersion: 1.1
-id: firefly-iii
+id: cas-firefly-iii
 category: finance
 name: Firefly III
 version: "6.2.21"
@@ -53,5 +53,5 @@ releaseNotes: >-
 
 
   Full release notes are found at https://github.com/firefly-iii/firefly-iii/releases
-submitter: Umbrel
+submitter: Cas
 submission: https://github.com/getumbrel/umbrel-apps/pull/378
