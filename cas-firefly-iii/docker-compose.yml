@@ -20,7 +20,6 @@ services:
       DB_DATABASE: fireflyiii
       DB_USERNAME: fireflyiii
       DB_PASSWORD: moneyprintergobrrr
-      ALLOW_WEBHOOKS: true
     env_file: ".env"
     volumes:
       - ${APP_DATA_DIR}/data/upload:/var/www/html/storage/upload
