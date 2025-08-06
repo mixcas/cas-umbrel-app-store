@@ -20,6 +20,7 @@ services:
       DB_DATABASE: fireflyiii
       DB_USERNAME: fireflyiii
       DB_PASSWORD: moneyprintergobrrr
+      ALLOW_WEBHOOKS: true
     volumes:
       - ${APP_DATA_DIR}/data/upload:/var/www/html/storage/upload
       - ${APP_DATA_DIR}/data/logs:/var/www/html/storage/logs
