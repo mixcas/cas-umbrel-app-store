@@ -1,0 +1,30 @@
+manifestVersion: 1.1
+id: cas-funkwhale
+category: media
+name: Funkwhale
+version: "1.4.0"
+tagline: A platform for all your audio
+icon: https://www.funkwhale.audio/theme/images/icon.svg
+description: >-
+  Listen to your music and podcasts from your web browser, or a wide range of compatible apps for every platform. This includes the Subsonic client of your choice and your favourite podcast app. 
+
+  For music lovers. Access your personal music collection from anywhere. Funkwhale supports advanced sharing features to promote Freely licensed content. 
+
+  For artists and podcasters. Publish your music and podcasts on Funkwhale. Let people follow your releases or subscribe to your podcast in their favorite podcatcher. 
+
+  Decentralized & Federated. Content can be shared across instances, or moderated to restrict bad actors. The network is not tied to any corporation or entity, so you have total independence. 
+
+  Community-driven. Free software build by the community using standard protocols and open-source technology. No third-party analytics. No tracking. No ads. You are in control. 
+developer: Funkwhale
+website: https://www.funkwhale.audio/
+dependencies: []
+repo: https://dev.funkwhale.audio/funkwhale/funkwhale
+support: https://docs.funkwhale.audio/
+port: 30015
+gallery:
+  - https://www.funkwhale.audio/theme/images/screenshot.png
+path: ""
+deterministicPassword: false
+torOnly: false
+releaseNotes: >-
+  Full release notes are found at https://docs.funkwhale.audio/changelog.html
